@@ -20,6 +20,7 @@ class Home(View):
     """View for home page."""
 
     def get(self, request):
+        #rendering to home page
         return render(request, "home.html")
 
 
